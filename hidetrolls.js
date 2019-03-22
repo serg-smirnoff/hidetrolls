@@ -25,7 +25,7 @@
             var nickname = jQuery(this).find(".post_wrap .row2 .author a span");
             //nicknames to hide
             if ( (nickname.text() == 'Virgo-ша') || (nickname.text() == 'zt39') || (nickname.text() == 'Rabel') ){
-              console.log(jQuery(this));
+              //console.log(jQuery(this));
               jQuery(this).find(".post_wrap").css('display', 'none');
             }
         }); 
