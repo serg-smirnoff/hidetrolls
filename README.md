@@ -1,4 +1,5 @@
-Скрывает на форуме https://www.newkaliningrad.ru/forum/ реплики троллей
+Violentmonkey + UserScript hidetrolls.js
+Скрывает реплики троллей на форуме https://www.newkaliningrad.ru/forum/
 
 Список троллей:
 
