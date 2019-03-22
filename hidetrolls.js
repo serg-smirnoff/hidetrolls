@@ -1,4 +1,4 @@
-// ==UserScript==
+ï»¿// ==UserScript==
 // @name Hide Trolls
 // @namespace Violentmonkey Scripts
 // @description Hide trolls via nickname
@@ -24,7 +24,7 @@
         jQuery(".topic .post_block").each(function() {
             var nickname = jQuery(this).find(".post_wrap .author a span");
             //nicknames to hide
-            if ( (nickname.text() == 'Virgo-øà') || (nickname.text() == 'zt39') || (nickname.text() == 'Rabel')){
+            if ( (nickname.text() == 'Virgo-ÑˆÐ°') || (nickname.text() == 'zt39') || (nickname.text() == 'Rabel')){
               jQuery(this).css('display', 'none');
             }
         });   
